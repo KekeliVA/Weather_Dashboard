@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" 
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+
+  <title>Weather Dash</title>
+</head>
+<div class="jumbotron">
+  <h1 class="display-4">Weather Dashboard</h1>
+  <p class="lead">This is a simple dashboard to show the user the five day forecast of a location they search.</p>
+  <hr class="my-4">
+  <p>By Kekeli Afantchao</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+<body>
+  <div class="container">
+    <div class="search-div">
+      <input id="search-value" type="text" placeholder="Search.." name="search">
+      <button id="search-button" type="submit"><i class="fa fa-search"></i></button>
+    </div>
+
+    <ul class="list-group history"></ul>
+    <div>
+
+    </div>
+
+    <div> 
+      <div id="today"> </div>
+      <div id="forecast"> </div>
+    </div>
+  </div>
+</body>
+</html>

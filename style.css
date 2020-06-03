@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+.search-div input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.search-div button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.search-div button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+.search-div::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.city-btn {
+  margin-top:1em;
+  margin-right:1em;
+}
+
+.history {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+
+}
+
+.card-body {
+  
+}
