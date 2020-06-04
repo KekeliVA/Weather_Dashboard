@@ -84,6 +84,11 @@ function forecast(cityName) {
         var cardBody = $("<div>").addClass("card-body");
         var cardImg = $("<img>").attr("src", "https://api.openweathermap.org/img/w/" + data.list[i].weather[0].icon);
         
+        title.append(cardImg);
+        cardBody.append(title, temp, humidity);
+        card.append(cardBody);
+        $("#forecast").append(card);
+        
         console.log(temp);
         console.log(humidity);
       }
